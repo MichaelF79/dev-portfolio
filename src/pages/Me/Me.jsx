@@ -16,23 +16,21 @@ const Me = ({ user }) => {
       </div>
       <div>
         <SectionTitle>Tech Stack</SectionTitle>
-        <div>
-          <Pill>
+        <Pill>
             <div>
-              <img className={styles.img} src="./assets/vscode.svg" alt="vscode" />
-              <img className={styles.img} src="./assets/figma.svg" alt="figma" />
-              <img className={styles.img} src="./assets/git.svg" alt="git"/>
-              <img className={styles.img} src="./assets/github.svg" alt="github" />
-              <img className={styles.img} src="./assets/html5.svg" alt="html5" />
-              <img className={styles.img} src="./assets/css3.svg" alt="css3" /> 
-              <img className={styles.img} src="./assets/sass.svg" alt="sass" />
-              <img className={styles.img} src="./assets/javascript.svg" alt="js" />
-              <img className={styles.img} src="./assets/react.svg" alt="react" />
-              <img className={styles.img} src="./assets/react-router.svg" alt="react-router" />
-              <img className={styles.img} src="./assets/nodejs.svg" alt="node.js"/>
+              <img className={styles.img} src="./assets/icons/vscode.png" alt="vscode" />
+              <img className={styles.img} src="./assets/icons/figma.png" alt="figma" />
+              <img className={styles.img} src="./assets/icons/git-icon.png" alt="git"/>
+              <img className={styles.img} src="./assets/icons/github.png" alt="github" />
+              <img className={styles.img} src="./assets/icons/html5.png" alt="html5" />
+              <img className={styles.img} src="./assets/icons/css3.png" alt="css3" /> 
+              <img className={styles.img} src="./assets/icons/sass.png" alt="sass" />
+              <img className={styles.img} src="./assets/icons/javascript.png" alt="js" />
+              <img className={styles.img} src="./assets/icons/react.png" alt="react" />
+              <img className={styles.img} src="./assets/icons/react-router.png" alt="react-router" />
+              <img className={styles.img} src="./assets/icons/nodejs.png" alt="node.js"/>
             </div>
-          </Pill>
-        </div>
+        </Pill>
       </div>
       <div>
         <SectionTitle>Profiles</SectionTitle>

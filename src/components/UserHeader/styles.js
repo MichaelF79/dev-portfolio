@@ -26,6 +26,7 @@ export const ViewResumeLink = styled.a`
   display: flex;
   text-decoration: none;
   padding: 0.75rem 1.5rem;
+  border-radius: 15px;
   font-weight: bold;
   align-items: center;
   margin-top: 1rem;

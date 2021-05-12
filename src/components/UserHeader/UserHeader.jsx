@@ -13,15 +13,14 @@ const UserHeader = ({ user }) => {
         <Image src={user.basics.picture} />
         <div>
           <h2>{user.basics.name}</h2>
-          <h4>
-            <a
-              href={`https://gitconnected.com/${user.basics.username}`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              @{user.basics.username}
-            </a>
-          </h4>
+          <ul>
+            <li>
+              <a href="https:www.linkedin.com/in/mjmferreira"></a>
+            </li>
+            <li>
+              <a href="https://github.com/MichaelF79"></a>
+            </li>
+          </ul>
           <p>{user.basics.label}</p>
           <p>{user.basics.region}</p>
           <p>{user.basics.yearsOfExperience}</p>

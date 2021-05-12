@@ -10,6 +10,14 @@ export const ProjectItem = styled.li`
 export const ProjectTitle = styled.h4`
   font-weight: bold;
 `
+export const ProjectImage = styled.img`
+  width: 200px;
+  margin-right: 1rem;
+  border-radius: 2px;
+`
+export const ProjectLinks = styled.h5`
+  font-weight: medium;
+`
 
 export const SkillContainer = styled.div`
   margin-top: 1.2rem;

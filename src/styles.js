@@ -18,6 +18,13 @@ export const Pill = styled.span`
   padding: 0.5rem 1rem;
   background-color: ${blue[50]};
   color: ${white[10]};
-  border-radius: 2px;
-  font-weight: bold;
+  border-radius: 15px;
+
+  .img {
+      display: inline-block;
+      height: 20px;
+      margin: 1rem;
+      opacity: 0.9;
+  }
+  
 `;

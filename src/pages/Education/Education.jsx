@@ -11,14 +11,14 @@ const Education = ({ user }) => {
         <ul>
           {user.education.map((education, i) => (
             <EducationItem key={i}>
-              <Institution>{education.position}</Institution>
+              <Institution>{education.institution}</Institution>
               <div>
                 <Degree>
-                  {education.studyType}, {education.area}
+                  {education.area} {''} {''}  {education.studyType} 
                 </Degree>{' '}
-                <span> &sdot; </span>
+                <span></span>
                 <span>
-                  {education.start.year} to {education.end.year}
+                  {education.start.year} {education.end.year}
                 </span>
               </div>
               <Paragraph>{education.description.replace('\n\n', '\n')}</Paragraph>
