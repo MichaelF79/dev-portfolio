@@ -22,7 +22,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\n  font-weight: medium;\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-weight: medium;\n  margin-top: 1.2rem;\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -32,7 +32,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  width: 50px;\n  margin-right: 1rem;\n  border-radius: 2px;\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 50px;\n  border-radius: 2px;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -71,7 +71,7 @@ var ProjectTitle = _styledComponents["default"].h4(_templateObject2());
 
 exports.ProjectTitle = ProjectTitle;
 
-var ProjectImage = _styledComponents["default"].img(_templateObject3());
+var ProjectImage = _styledComponents["default"].image(_templateObject3());
 
 exports.ProjectImage = ProjectImage;
 

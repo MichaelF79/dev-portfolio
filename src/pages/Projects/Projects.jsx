@@ -11,18 +11,24 @@ const Projects = ({ user }) => {
         <ul>
           {user.projects.map((project, i) => (
             <ProjectItem key={i}>
-              <ProjectImage className="img" src={project.image} alt={project.name} />
+            <ProjectImage>
+              <div>
+                <img className="image" src={project.image} alt={project.name} />
+              </div> 
+            </ProjectImage>
               <ProjectTitle>{project.displayName}</ProjectTitle>
               <p>{project.description}</p>
               <ProjectLinks>
-                <ul>
-                  <li>
-                    <a className="weblink" href={project.website}>Live Demo</a>
-                  </li>
-                  <li>
-                    <a  className="gitlink" href={project.githubUrl}>Github</a>
-                  </li>
-                </ul>
+                <div>
+                  <ul>
+                    <li>
+                      <a className="weblink" href={project.website}>Live Demo</a>
+                    </li>
+                    <li>
+                      <a  className="gitlink" href={project.githubUrl}>Github</a>
+                    </li>
+                  </ul>
+                </div>
               </ProjectLinks>
               <SkillContainer>
                 {[...project.languages, ...project.libraries].map((item, j) => (

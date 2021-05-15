@@ -20,7 +20,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n  margin-top: 1rem;\n  display: flex;\n  @media (max-width: 640px) {\n    flex-direction: column;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: flex;\n  @media (max-width: 640px) {\n    flex-direction: column;\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
