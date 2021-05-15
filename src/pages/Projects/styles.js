@@ -6,12 +6,11 @@ export const ProjectItem = styled.li`
   padding-bottom: 1rem;
   border-bottom: 1px solid ${white};
 `
-
 export const ProjectTitle = styled.h4`
   font-weight: bold;
 `
 export const ProjectImage = styled.img`
-  width: 200px;
+  width: 50px;
   margin-right: 1rem;
   border-radius: 2px;
 `

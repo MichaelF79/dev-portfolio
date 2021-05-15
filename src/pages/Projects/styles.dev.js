@@ -32,7 +32,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  width: 200px;\n  margin-right: 1rem;\n  border-radius: 2px;\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 50px;\n  margin-right: 1rem;\n  border-radius: 2px;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;

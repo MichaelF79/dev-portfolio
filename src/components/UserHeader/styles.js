@@ -10,6 +10,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const Header = styled.div`
+  margin-top: 1rem;
   display: flex;
   @media (max-width: 640px) {
     flex-direction: column;
@@ -17,27 +18,27 @@ export const Header = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 200px;
-  margin-right: 1rem;
-  border-radius: 2px;
+  width: 150px;
+  margin-right: 2.5rem;
+  border-radius: 50%;
 `;
 
-export const ViewResumeLink = styled.a`
-  display: flex;
-  text-decoration: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 15px;
-  font-weight: bold;
-  align-items: center;
-  margin-top: 1rem;
-  border: 2px solid #2ecc40;
-  background-color: rgba(46, 204, 64, 0.3);
-  transition: background-color 250ms ease;
-  &:hover {
-    background-color: #2ecc40;
-  }
-  svg {
-    fill: white;
-    margin-left: 8px;
-  }
-`;
+// export const ViewResumeLink = styled.a`
+//   display: flex;
+//   text-decoration: none;
+//   padding: 0.75rem 1.5rem;
+//   border-radius: 15px;
+//   font-weight: bold;
+//   align-items: center;
+//   margin-top: 3rem;
+//   border: 2px solid #0f62fe;
+//   background-color: #0f62fe;
+//   transition: background-color 250ms ease;
+//   &:hover {
+//     background-color: #004cdb;
+//   }
+//   svg {
+//     fill: white;
+//     margin-left: 8px;
+//   }
+// `;

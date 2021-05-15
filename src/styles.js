@@ -4,7 +4,7 @@ import { white } from '@carbon/colors';
 
 export const SectionTitle = styled.h3`
   margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 `;
 
 export const Paragraph = styled.p`
@@ -15,16 +15,12 @@ export const Pill = styled.span`
   display: inline-block;
   margin-right: 0.75rem;
   margin-bottom: 0.75rem;
-  padding: 0.5rem 1rem;
-  background-color: ${blue[50]};
-  color: ${white[10]};
-  border-radius: 15px;
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  background-color: ${blue[10]};
+  color: #000000;
+  font-weight: bold;
 
-  .img {
-      display: inline-block;
-      height: 20px;
-      margin: 1rem;
-      opacity: 0.9;
-  }
+  border-radius: 15px;
   
 `;

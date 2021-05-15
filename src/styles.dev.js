@@ -12,7 +12,7 @@ var _colors = require("@carbon/colors");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  display: inline-block;\n  margin-right: 0.75rem;\n  margin-bottom: 0.75rem;\n  padding: 0.5rem 1rem;\n  background-color: ", ";\n  color: ", ";\n  border-radius: 15px;\n\n  .img {\n      display: inline-block;\n      height: 20px;\n      margin: 1rem;\n      opacity: 0.9;\n  }\n  \n"]);
+  var data = _taggedTemplateLiteral(["\n  display: inline-block;\n  margin-right: 0.75rem;\n  margin-bottom: 0.75rem;\n  margin-top: 0.75rem;\n  padding: 0.5rem;\n  background-color: ", ";\n  color: #000000;\n  font-weight: bold;\n\n  border-radius: 15px;\n  \n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -32,7 +32,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  margin-top: 1.5rem;\n  margin-bottom: 0.5rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin-top: 1.5rem;\n  margin-bottom: 1rem;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -51,6 +51,6 @@ var Paragraph = _styledComponents["default"].p(_templateObject2());
 
 exports.Paragraph = Paragraph;
 
-var Pill = _styledComponents["default"].span(_templateObject3(), _colors.blue[50], _colors.white[10]);
+var Pill = _styledComponents["default"].span(_templateObject3(), _colors.blue[10]);
 
 exports.Pill = Pill;

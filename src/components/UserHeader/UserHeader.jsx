@@ -11,23 +11,13 @@ const UserHeader = ({ user }) => {
     <HeaderContainer isHome={location.pathname === '/'}>
       <Header>
         <Image src={user.basics.picture} />
-        <div>
-          <h2>{user.basics.name}</h2>
-          <ul>
-            <li>
-              <a href="https:www.linkedin.com/in/mjmferreira"></a>
-            </li>
-            <li>
-              <a href="https://github.com/MichaelF79"></a>
-            </li>
-          </ul>
-          <p>{user.basics.label}</p>
-          <p>{user.basics.region}</p>
-          <p>{user.basics.yearsOfExperience}</p>
-          <p>{user.basics.headline}</p>
+        <div className="info">
+          <h1>{user.basics.name}</h1>
+          <h3>{user.basics.label}</h3>
+          <h4>{user.basics.region}</h4>
         </div>
       </Header>
-      <div>
+      {/* <div>
         <ViewResumeLink
           href={`https://gitconnected.com/${user.basics.username}/resume`}
           target="_blank"
@@ -36,7 +26,7 @@ const UserHeader = ({ user }) => {
           <span>View CV</span>
           <ArrowRight16 />
         </ViewResumeLink>
-      </div>
+      </div> */}
     </HeaderContainer>
   );
 };

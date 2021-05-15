@@ -15,21 +15,33 @@ const Me = ({ user }) => {
         <Paragraph>{user.basics.summary}</Paragraph>
       </div>
       <div>
+        <SectionTitle>Soft Skills</SectionTitle>
+        <Paragraph>
+          <ul>
+            <li>•	 Communication</li>
+            <li>•	 Leadership</li>
+            <li>•	 Teamwork and Collaboration</li>
+            <li>•	 Problem-Solving</li>
+            <li>•	 Time Management</li>
+            <li>•	 Self-Motivation</li>
+          </ul>
+        </Paragraph>
+      </div>
+      <div>
         <SectionTitle>Tech Stack</SectionTitle>
         <Pill>
-            <div>
-              <img className={styles.img} src="./assets/icons/vscode.png" alt="vscode" />
-              <img className={styles.img} src="./assets/icons/figma.png" alt="figma" />
-              <img className={styles.img} src="./assets/icons/git-icon.png" alt="git"/>
-              <img className={styles.img} src="./assets/icons/github.png" alt="github" />
-              <img className={styles.img} src="./assets/icons/html5.png" alt="html5" />
-              <img className={styles.img} src="./assets/icons/css3.png" alt="css3" /> 
-              <img className={styles.img} src="./assets/icons/sass.png" alt="sass" />
-              <img className={styles.img} src="./assets/icons/javascript.png" alt="js" />
-              <img className={styles.img} src="./assets/icons/react.png" alt="react" />
-              <img className={styles.img} src="./assets/icons/react-router.png" alt="react-router" />
-              <img className={styles.img} src="./assets/icons/nodejs.png" alt="node.js"/>
-            </div>
+
+          
+          <img className={styles.img} src='/assets/images/html5.png' alt="html5" />
+          <img className={styles.img} src='/assets/images/css3.png' alt="css3" /> 
+          <img className={styles.img} src='/assets/images/sass.png' alt="sass" />
+          <img className={styles.img} src='/assets/images/javascript.png' alt="js" />
+          <img className={styles.img} src='/assets/images/react.png' alt="react" />
+          <img className={styles.img} src='/assets/images/figma.png' alt="figma" />
+          <img className={styles.img} src='/assets/images/github.png' alt="github" />
+          <img className={styles.img} src='/assets/images/git-icon.png' alt="git"/>
+          <img className={styles.img} src='/assets/images/vscode.png' />
+          <img className={styles.img} src='/assets/images/nodejs.png' alt="node.js"/>          
         </Pill>
       </div>
       <div>
