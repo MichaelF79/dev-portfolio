@@ -11,7 +11,7 @@ const Projects = ({ user }) => {
         <ul>
           {user.projects.map((project, i) => (
             <ProjectItem key={i}>
-              <ProjectImage className="img" src={project.images} />
+              <ProjectImage className="img" src={project.image} alt={project.name} />
               <ProjectTitle>{project.displayName}</ProjectTitle>
               <p>{project.description}</p>
               <ProjectLinks>
