@@ -2,7 +2,7 @@
   "name": "dev-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://michaelf79.github.io/dev-portfolio",
+  "homepage": "https://michaelferreira.me",
   "dependencies": {
     "@carbon/icons-react": "^10.30.0",
     "@carbon/themes": "^10.32.0",
@@ -29,9 +29,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
