@@ -20,7 +20,5 @@ export const Pill = styled.span`
   background-color: ${blue[10]};
   color: #000000;
   font-weight: bold;
-
-  border-radius: 15px;
-  
+  border-radius: 15px; 
 `;

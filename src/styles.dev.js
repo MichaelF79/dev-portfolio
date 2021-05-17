@@ -12,7 +12,7 @@ var _colors = require("@carbon/colors");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  display: inline-block;\n  margin-right: 0.75rem;\n  margin-bottom: 0.75rem;\n  margin-top: 0.75rem;\n  padding: 0.5rem;\n  background-color: ", ";\n  color: #000000;\n  font-weight: bold;\n\n  border-radius: 15px;\n  \n"]);
+  var data = _taggedTemplateLiteral(["\n  display: inline-block;\n  margin-right: 0.75rem;\n  margin-bottom: 0.75rem;\n  margin-top: 0.75rem;\n  padding: 0.5rem;\n  background-color: ", ";\n  color: #000000;\n  font-weight: bold;\n  border-radius: 15px; \n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;

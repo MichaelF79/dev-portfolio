@@ -8,6 +8,8 @@ export const ProjectItem = styled.li`
 `
 export const ProjectTitle = styled.h4`
   font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 `
 export const ProjectImage = styled.image`
   width: 50px;
