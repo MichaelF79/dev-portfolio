@@ -2,7 +2,7 @@
   "name": "dev-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http:{MichaelF79}.github.io/{dev-portfolio}",
+  "homepage": "https://michaelferreira.me",
   "dependencies": {
     "@carbon/icons-react": "^10.30.0",
     "@carbon/themes": "^10.32.0",
