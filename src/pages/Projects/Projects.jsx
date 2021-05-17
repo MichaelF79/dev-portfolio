@@ -13,7 +13,7 @@ const Projects = ({ user }) => {
             <ProjectItem key={i}>
             <ProjectImage>
               <div>
-                <img className="image" src={project.image} alt={project.name} />
+                <img className="image" src={project.images[0].resolutions.thumbnail.url} alt={project.name} />
               </div> 
             </ProjectImage>
               <ProjectTitle>{project.displayName}</ProjectTitle>
