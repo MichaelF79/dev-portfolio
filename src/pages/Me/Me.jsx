@@ -38,7 +38,7 @@ const Me = ({ user }) => {
           <img className={styles.img} src='/assets/images/react.png' alt="React" />
           <img className={styles.img} src='/assets/images/figma.png' alt="Figma" />
           <img className={styles.img} src='/assets/images/github.png' alt="GitHub" />
-          <img className={styles.img} src='/assets/images/git-icon.png'alt="Git" />                   
+          {/* <img className={styles.img} src='/assets/images/git-icon.png'alt="Git" />                    */}
         </Pill>
           <h4>Exposure to...</h4>
         <Pill>
@@ -52,8 +52,8 @@ const Me = ({ user }) => {
         <SectionTitle>Profiles</SectionTitle>
         <ProfileLink>
           <ul>
-            <li className="plink">
-              <a href="https://github.com/MichaelF79">GitHub</a>
+            <li>
+            <a href="https://github.com/MichaelF79">GitHub</a>
             </li>
             <br></br>
             <li>

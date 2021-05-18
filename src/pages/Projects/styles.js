@@ -12,8 +12,7 @@ export const ProjectTitle = styled.h4`
   margin-bottom: 1rem;
 `
 export const ProjectImage = styled.image`
-  width: 50px;
-  border-radius: 2px;
+  border-radius: 10px;
 `
 export const ProjectLinks = styled.h5`
   font-weight: medium;
