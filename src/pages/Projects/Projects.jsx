@@ -22,10 +22,10 @@ const Projects = ({ user }) => {
                 <div>
                   <ul>
                     <li>
-                      <a className="weblink" href={project.website}>Live Demo</a>
+                      <a className="weblink" href={project.website} target="_blank" rel="noreferrer">Live Demo</a>
                     </li>
                     <li>
-                      <a  className="gitlink" href={project.githubUrl}>Github</a>
+                      <a  className="gitlink" href={project.githubUrl} target="_blank" rel="noreferrer">Github</a>
                     </li>
                   </ul>
                 </div>

@@ -43,6 +43,7 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+/*import { white } from '@carbon/colors';*/
 var SectionTitle = _styledComponents["default"].h3(_templateObject());
 
 exports.SectionTitle = SectionTitle;

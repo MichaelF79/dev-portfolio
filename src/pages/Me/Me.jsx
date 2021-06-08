@@ -53,11 +53,11 @@ const Me = ({ user }) => {
         <ProfileLink>
           <ul>
             <li>
-            <a href="https://github.com/MichaelF79">GitHub</a>
+            <a href="https://github.com/MichaelF79" target="_blank" rel="noreferrer">GitHub</a>
             </li>
             <br></br>
             <li>
-              <a href="https://www.linkedin.com/in/mjmferreira/">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/mjmferreira/" target="_blank" rel="noreferrer">LinkedIn</a>
             </li>                          
           </ul>
         </ProfileLink>

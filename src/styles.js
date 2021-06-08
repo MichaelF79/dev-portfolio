@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { blue } from '@carbon/colors';
-import { white } from '@carbon/colors';
+/*import { white } from '@carbon/colors';*/
 
 export const SectionTitle = styled.h3`
   margin-top: 1.5rem;
