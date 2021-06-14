@@ -28,7 +28,7 @@ const Me = ({ user }) => {
         </Paragraph>
       </div>
       <div>
-        <SectionTitle>Tech Stack</SectionTitle>
+        <SectionTitle>Tech Skills</SectionTitle>
         <Pill> 
           <img className={styles.img} src='/assets/images/vscode.png' alt="VSCode" />       
           <img className={styles.img} src='/assets/images/html5.png' alt="HTML5" />
