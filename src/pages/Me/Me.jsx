@@ -30,19 +30,21 @@ const Me = ({ user }) => {
       <div>
         <SectionTitle>Tech Skills</SectionTitle>
         <Pill> 
-          <img className={styles.img} src='/assets/images/vscode.png' alt="VSCode" />       
+          <img className={styles.img} src='/assets/images/react.png' alt="React" />                
           <img className={styles.img} src='/assets/images/html5.png' alt="HTML5" />
           <img className={styles.img} src='/assets/images/css3.png' alt="CSS3" /> 
           <img className={styles.img} src='/assets/images/sass.png' alt="SASS" />
           <img className={styles.img} src='/assets/images/javascript.png' alt="JavaScript" />
-          <img className={styles.img} src='/assets/images/react.png' alt="React" />
-          <img className={styles.img} src='/assets/images/figma.png' alt="Figma" />
+          <img className={styles.img} src='/assets/images/vscode.png' alt="VSCode" />
           <img className={styles.img} src='/assets/images/github.png' alt="GitHub" />
+          <img className={styles.img} src='/assets/images/figma.png' alt="Figma" />         
           {/* <img className={styles.img} src='/assets/images/git-icon.png'alt="Git" />                    */}
         </Pill>
           <h4>Exposure to...</h4>
         <Pill>
           <img className={styles.imgx} src='/assets/images/nodejs.png' alt="Nodejs"/>
+          <img className={styles.imgx} src='/assets/images/express.png' alt="Express"/>
+          <img className={styles.imgx} src='/assets/images/mongodb.png' alt="MongoDB"/>
           <img className={styles.imgx} src='/assets/images/firebase.png' alt="Firebase"/>
           <img className={styles.imgx} src='/assets/images/typescript.png' alt="TypeScript"/>
           <img className={styles.imgx} src='/assets/images/angular.png' alt="Angular"/>
